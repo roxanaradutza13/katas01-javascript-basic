@@ -1,0 +1,12 @@
+{
+  "name": "katas-01-javascript-basic",
+  "version": "1.0.0",
+  "description": "",
+  "type":"module",
+  "scripts": {
+    "test": "node --test --watch --test-reporter spec"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
