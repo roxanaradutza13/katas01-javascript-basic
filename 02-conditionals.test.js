@@ -1,6 +1,6 @@
-import {describe, it} from 'node:test';
-import assert from 'node:assert/strict';
-import { runInContext } from 'node:vm';
+import {describe, it} from "node:test";
+import {assert} from "node:assert/strict";
+import { runInContext } from "node:vm";
 
 
 // PRIMERA PARTE: Condicionales en JavaScript
@@ -25,9 +25,9 @@ describe("Condicionales en JavaScript", () => {
         let result;
 
         if (age >= 18) {
-            result = `${name} es mayor de edad.`;
+            result = "${name} es mayor de edad.";
         } else {
-            result = `${name} es menor de edad.`
+            result = "${name} es menor de edad.";
         }
 
         // Edita el assert (los "???") para que pase el test
@@ -42,14 +42,14 @@ describe("Condicionales en JavaScript", () => {
         let result;
 
         if (number % 7 === 0) {
-            result = `Pizza con ${b}`
+            result = "Pizza con ${b}";
         } else {
-            result = `Pizza con ${a}`
+            result = "Pizza con ${a}";
         }
 
         // Edita el assert (los "???") para que pase el test
        // assert.strictEqual(result,"???");
-        assert.strictEqual(result,`Pizza con ${b}`);
+        assert.strictEqual(result,"Pizza con ${b}");
     })
     
 
@@ -74,15 +74,15 @@ describe("Condicionales en JavaScript", () => {
    let saludo;
     // Escribe aquí tu condicional contemplando las 3 casuísticas
     if(hour < 12) {
-        saludo = "Buenos días";
+        saludo = "Buenos días"
       }
       else if(hour >= 12 && hour < 20) {
-        saludo = "Buenas tardes";
+        saludo = "Buenas tardes"
       }else{
-        saludo = "Buenas noches";
+        saludo = "Buenas noches"
       }
 
-     assert.strictEqual(saludo,"Buenas tardes");
+     assert.strictEqual(saludo,"Buenas tardes")
  
 });
 });

@@ -10,7 +10,7 @@ describe("Funciones en JavaScript", () => {
      
         // Escribe aquí tu funcion "saludar"
         function saludar (name){
-            return `Hola, ${name}`
+            return "Hola, ${name}";
         }
 
         assert.strictEqual(saludar(name),"Hola, Rosa");
@@ -61,7 +61,7 @@ describe("Funciones en JavaScript", () => {
         let password = "p4s$w0rDs3guR0";
 
         function userAuth(userName, userEmail, password) {
-            return `Welcome ${userName},your email is ${userEmail} and your password is ${password}.`
+            return "Welcome ${userName},your email is ${userEmail} and your password is ${password}."
         } 
         let result = userAuth(userName,userEmail,password);
         let expected = "Welcome Ariana28,your email is ariana_28@gmail.com and your password is p4s$w0rDs3guR0."

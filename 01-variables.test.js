@@ -1,5 +1,5 @@
-import {describe, it} from 'node:test';
-import assert from 'node:assert/strict';
+import {describe, it} from "node:test";
+import assert from "node:assert/strict";
 
 /* PRIMERA PARTE: En esta sección deberéis crear las variables necesarias para hacer pasar los tests.
 Fíjate en el "assert": son las verificaciones del test, es decir, lo que el test busca para poder pasar.
